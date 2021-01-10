@@ -3,6 +3,6 @@ def reverse_dict(dict):
     x = dict.keys()
     res = {}
     for i in list(x):
-    	res[dict[i]] = i
+        res[dict[i]] = i
 
     return res
