@@ -3,15 +3,17 @@ def size_of_list(list):
 
 
 def add_elem_to_list(list, elem):
-    return list.append(elem)
+    list.append(elem)
+    return list
 
 
 def delete_elem_from_list(list, index = -1):
     # delete element from list, such that its index is index
     # if index is invalid, return empty list
     if index == -1:
-        return list
-    return list.pop(index)
+        return []
+    list.pop(index)
+    return list
 
 
 def count_elements_in_list(list, x):
@@ -21,9 +23,11 @@ def count_elements_in_list(list, x):
 
 def sort_list(list):
     # return sorted list
-    return list.sort()
+    list.sort()
+    return list
 
 
 def reverse(list):
     # return reversed list
-    return list.reverse()
+    list.reverse()
+    return list
