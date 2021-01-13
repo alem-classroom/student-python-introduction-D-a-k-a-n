@@ -25,7 +25,7 @@ def count_elements_in_list(list, x):
 
 def sort_list(list):
     # return sorted list
-    list = list.sort()
+    list.sort()
     return list
 
 
