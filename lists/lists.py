@@ -8,7 +8,7 @@ def add_elem_to_list(list, elem):
 
 
 def delete_elem_from_list(list, index=-1):
-    if index != -1:
+    if index != -1 and len(list) > index:
         return list.pop(index)
 
     else:
