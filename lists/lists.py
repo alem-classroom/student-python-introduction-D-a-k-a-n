@@ -15,7 +15,7 @@ def delete_elem_from_list(list, index = -1):
 
 
 def count_elements_in_list(list, x):
-    # count elements in the list that are equal to x and return the count
+    # count elements in the list that are equal to x and return the coun
     return list.count(x)
 
 
