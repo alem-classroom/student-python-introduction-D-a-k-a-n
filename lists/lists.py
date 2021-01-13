@@ -30,6 +30,6 @@ def sort_list(list):
 
 
 def reverse(list):
-    # return reversed list
+    # return reversed
     list = list.reverse()
     return list
