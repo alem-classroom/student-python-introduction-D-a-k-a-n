@@ -3,12 +3,14 @@ def size_of_list(list):
 
 
 def add_elem_to_list(list, elem):
-    list.append(elem)
+    return list.append(elem)
 
 
 def delete_elem_from_list(list, index = -1):
     # delete element from list, such that its index is index
     # if index is invalid, return empty list
+    if index == -1:
+        return []
     return list.pop(index)
 
 
