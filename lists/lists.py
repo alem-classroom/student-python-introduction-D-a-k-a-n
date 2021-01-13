@@ -7,14 +7,12 @@ def add_elem_to_list(list, elem):
     return list
 
 
-def delete_elem_from_list(list, index = -1):
-    # delete element from list, such that its index is index
-    # if index is invalid, return empty list
-    if index == -1:
-        return []
+def delete_elem_from_list(list, index=-1):
+    if index != -1:
+        return list.pop(index)
+
     else:
-        list.pop(index)
-        return list
+        return []
 
 
 def count_elements_in_list(list, x):
@@ -24,11 +22,14 @@ def count_elements_in_list(list, x):
 
 def sort_list(list):
     # return sorted list
-    return list.sort()
+    list.sort()
+    return list
 
 
 def reverse(list):
     # return reversed
-    list = list.reverse()
+    list.reverse()
     return list
+
+
 
