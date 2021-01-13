@@ -10,7 +10,7 @@ def delete_elem_from_list(list, index = -1):
     # delete element from list, such that its index is index
     # if index is invalid, return empty list
     if index == -1:
-        return []
+        return list
     return list.pop(index)
 
 
